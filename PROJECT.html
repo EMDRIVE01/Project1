@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MDRIVE - Dynamic Marketing Website for Car Sales">
+    <title>EMRIVE - Home</title>
+    <link rel="stylesheet" href="project.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">EMDRIVE
+            <img src="c:\Users\emma1\Pictures\CAR1.jpg" alt="Car Image" class="floating-car">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#inventory">Inventory</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Page -->
+    <section id="home" class="home">
+        <div class="banner">
+            <h1>Welcome to EMDRIVE</h1>
+            <p>Your one-stop solution for buying your dream car!</p>
+            <div class="cta-buttons">
+                <a href="#inventory" class="cta">Explore Inventory</a>
+                <a href="#contact" class="cta">Book a Test Drive</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inventory Page -->
+    <section id="inventory" class="inventory">
+        <h2>Car Inventory</h2>
+        <div class="search-filters">
+            <input type="text" id="search" placeholder="Search by model or brand">
+            <select id="filter">
+                <option value="all">All</option>
+                <option value="sedan">Sedan</option>
+                <option value="suv">SUV</option>
+                <option value="electric">Electric</option>
+            </select>
+        </div>
+        <div class="car-list">
+            <!-- Dynamic car cards will be loaded here using JavaScript -->
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>EMSDRIVE is dedicated to bringing you the best car deals with exceptional customer service. With a rich history in the automotive industry, our mission is to make car buying effortless and enjoyable.</p>
+        <blockquote>
+            "We bought our dream car from EMDRIVE. The experience was amazing!" - Happy Customer
+        </blockquote>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Phone Number:</strong> 0500592009</p>
+        <p><strong>Email:</strong> EMdrive1@gmail.com</p>
+
+
+        <form id="contactForm">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="map">
+            <!-- Google Maps integration -->
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <h2>Latest Updates</h2>
+        <article class="blog-post">
+            <h3>Top 5 Cars of 2024</h3>
+            <p>Discover the best cars of the year with our expert recommendations.</p>
+        </article>
+        <article class="blog-post">
+            <h3>"Electric Cars Are the Future" ELON MUSK(TESLA CEO)</h3>
+            <p>Learn why electric vehicles are becoming the top choice for modern drivers.</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 EMDRIVE. All rights reserved.</p>
+    </footer>
+</body>
+</html>
